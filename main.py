@@ -57,7 +57,7 @@ cifra_cierre_ayer = data_list[0]["4. close"]
 cifra_cierre_antier = data_list[1]["4. close"]
 
 #Se obtiene la diferencia en porcentaje de las cifras de cierre
-diferencia = 45
+diferencia = float(cifra_cierre_ayer)/ float(cifra_cierre_antier) * 100
 
 
 #Use https://newsapi.org
